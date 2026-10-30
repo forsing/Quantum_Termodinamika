@@ -88,10 +88,11 @@ from qiskit.quantum_info import SparsePauliOp, Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
+
 
 NUMBER_COUNT = 39
 DRAW_SIZE = 7
@@ -1962,7 +1963,7 @@ Svaki uzorak koristi samo prethodna kola.
 Završno učenje koristi sve istorijske prelaze.
 Nema slučajnog generisanja, šuma ili mešanja redova.
 Limit iteracija ne odbacuje validnu sačuvanu raspodelu.
-Kontrolne tačke: /Users/4c/Desktop/GHQ/Astra/Quantum_Termodinamika/Quantum_Termodinamika_v1_checkpoints
+Kontrolne tačke: /Quantum_Termodinamika/Quantum_Termodinamika_v1_checkpoints
 
 ULAZ: loto7_4710_k86.csv
 Redova: 4710 | praznih redova: 0
@@ -2118,7 +2119,7 @@ Operacije kola: {'ucry': 39, 'mcx': 39, 'ccx': 39, 'cx': 39}
 Odvojeni test: 942 prelaza
 
 loto7_4710_k86.csv
-NEXT: 08 11 22 23 26 34 37
+NEXT: 08 x 22 y 26 z 37
 Validacioni NLL: 16.548395537
 Odvojeni test NLL: 16.547291316
 Pogodaka 0–7: 207 376 272 74 13 0 0 0
@@ -2266,7 +2267,7 @@ Operacije kola: {'ucry': 39, 'mcx': 39, 'ccx': 39, 'cx': 39}
 Odvojeni test: 596 prelaza
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 08 16 21 22 23 34 35
+NEXT: 08 x 21 y 23 z 35
 Validacioni NLL: 16.548517857
 Odvojeni test NLL: 16.547774437
 Pogodaka 0–7: 129 242 163 52 10 0 0 0
@@ -2414,7 +2415,7 @@ Operacije kola: {'ucry': 39, 'mcx': 39, 'ccx': 39, 'cx': 39}
 Odvojeni test: 347 prelaza
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 02 07 08 11 23 26 34
+NEXT: 02 x 08 y 23 z 34
 Validacioni NLL: 16.548995021
 Odvojeni test NLL: 16.548482025
 Pogodaka 0–7: 80 141 95 25 4 2 0 0
@@ -2434,7 +2435,7 @@ Gradijentni uslov: dostignut
 ZAVRŠNA TRI NEXT REZULTATA
 
 loto7_4710_k86.csv
-NEXT: 08 11 22 23 26 34 37
+NEXT: 08 x 22 y 26 z 37
 Validacioni NLL: 16.548395537
 Odvojeni test NLL: 16.547291316
 Pogodaka 0–7: 207 376 272 74 13 0 0 0
@@ -2450,7 +2451,7 @@ Max|grad|: 2.900e-07
 Gradijentni uslov: dostignut
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 08 16 21 22 23 34 35
+NEXT: 08 x 21 y 23 z 35
 Validacioni NLL: 16.548517857
 Odvojeni test NLL: 16.547774437
 Pogodaka 0–7: 129 242 163 52 10 0 0 0
@@ -2466,7 +2467,7 @@ Max|grad|: 3.421e-09
 Gradijentni uslov: dostignut
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 02 07 08 11 23 26 34
+NEXT: 02 x 08 y 23 z 34
 Validacioni NLL: 16.548995021
 Odvojeni test NLL: 16.548482025
 Pogodaka 0–7: 80 141 95 25 4 2 0 0
